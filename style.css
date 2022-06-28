@@ -112,6 +112,10 @@ nav{
 
 }
 
+.nav a:hover{
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+}
 
 
 /*fin de nav bar*/
@@ -479,3 +483,13 @@ label{
 /* fin de formulario*/
 /*********************FIN DE PAGINA CONTACTO **********/
 
+/****************ANIMACIONES******************/
+.picture img{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+
+.picture img:hover{
+    transform: scale(1.15);
+}
