@@ -12,7 +12,7 @@
     box-sizing: border-box;}
 
 .main{
-    background-image: url(../img/STEFANO.jpeg);
+    background-image: url(./img/STEFANO.jpeg);
     background-size: cover;
     width: 100%;
     height: auto;
