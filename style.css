@@ -26,3 +26,40 @@ nav{
 
 /*Pagina multimedia */
 
+/*este es mi footer*/
+
+footer{
+    color: #fff;
+    background-color: #4d4d4d;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    padding-top: 5px;  
+}
+
+
+.border ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.border ul li a{
+   display: flex;
+   justify-content: center;
+   padding: 0 5px 5px 0;
+   height: 35px;
+   width: 35px;
+   justify-content: space-around;
+}
+
+.copyright{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: flex;
+   align-content: center;
+   text-transform: uppercase;
+   padding-top: 1px;
+   font-size: 0.5rem;
+}
+/*fin de footer*/
