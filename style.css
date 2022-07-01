@@ -1,6 +1,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Zen+Tokyo+Zoo&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.main{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
+
+.main-s{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
+
+
+.main-m{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+
 /*botonera y navbar */
 
 nav{
@@ -24,42 +51,48 @@ nav{
 }
 
 
-/*Pagina multimedia */
+/*Pagina index */
+
+.parrafo{
+    width:auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.726);
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px 5px 10px;
+    border-radius: 8px;
+    margin-block-start: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+P{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 0.9rem;
+    width:auto;
+    height: auto;
+}
+
+
 
 /*este es mi footer*/
 
-footer{
-    color: #fff;
-    background-color: #4d4d4d;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row; 
-    padding-top: 5px;  
+.iconos a{
+    border-radius: 50%;
 }
 
-
-.border ul li {
-    display: inline-block;
-    list-style: none;
-}
-
-.border ul li a{
-   display: flex;
-   justify-content: center;
-   padding: 0 5px 5px 0;
-   height: 35px;
-   width: 35px;
-   justify-content: space-around;
-}
-
-.copyright{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-direction: flex;
-   align-content: center;
-   text-transform: uppercase;
-   padding-top: 1px;
-   font-size: 0.5rem;
-}
 /*fin de footer*/
+
+/*pagina multimedia*/
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;	
+  }
+
+ .altura-video{
+    display:block;
+    height: 50vh;
+ }
