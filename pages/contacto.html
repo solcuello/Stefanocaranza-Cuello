@@ -15,7 +15,6 @@
     <script src="https://kit.fontawesome.com/3a0c3715e1.js" crossorigin="anonymous"></script>
   </head>
   
-  <body>
  <!--inicio nav bar-->
  <nav class="navbar navbar-expand-lg navbar-light nav"
  id="botonera">
@@ -45,29 +44,72 @@
  <!--fin de nav bar-->
 <!--este es mi footer-->
 
+<main class="main-c">
+
+  <section class="py-3 formulario" >
+    <div class="container-fluid row">
+      <article class="col-sm-3 col-md-12 col-lg-12">
+    
+      <h3>PARA CONTACTARME</h3>
+          
+
+          <div><form action="enviar.php" method="post" enctype="text/plain">
+          <div> <label for="">Nombre</label>
+          <input type="text" placeholder="escribe tu nombre" required>
+          </div>
+
+          <div>
+          <label for="">Apellido</label>
+          <input type="text" placeholder="escribe tu apellido" required>
+          
+          <div>
+          <label for="">telefono</label>
+          <input type="number" placeholder="escribe tu telefono" required>
+          </div>
+          
+          <div>
+          <label for="">E-mail</label>
+          <input type="e-mail" placeholder="escribe tu e-mail" required>
+          </div>
+          <div><label for="">Comentario</label></div>
+          <textarea name="tu comentario" id="" cols="20" rows="5"></textarea>
+          <div class="terminos">
+          <label for=""> Acepto los terminos y condiciones</label>
+          </div>
+          <input type="checkbox">
+          <input type="submit" value="enviar">
+          <input type="reset" value="resetear">  
+          </div>
+        </article>
+    </div>
+  </section>
+
+</main>
+
+
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
     <section class="mb-4  iconos">
       <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/stefano.caranza" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/stefano.caranza" target="_blank" role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
 
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/stefanocaranza/?hl=es" target="_blank" role="button"
         ><i class="fab fa-instagram"></i
       ></a>
 
       <!-- spotify -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://open.spotify.com/artist/6zWj3y3TcR7kkjhGKi8o0Z?si=f27428a8be5547dd target=" target="_blank" role="button"
         ><i class="fa-brands fa-spotify"></i>
       </a>
 
       <!--youtube  -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UC7lNaAZ8LI-n_0QavD7A96w" target="_blank" role="button"
         ><i class="fa-brands fa-youtube"></i>
       </a>
     </section>

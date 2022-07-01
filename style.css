@@ -20,6 +20,12 @@
     height: 150vh;
 }
 
+.main-c{
+    background-image: url(./img/STEFANO.jpeg);
+    background-size:cover ;
+    width: 100%;
+    height: 150vh;
+}
 
 .main-m{
     background-color: white;
@@ -27,8 +33,40 @@
     height: auto;
 }
 
+h1{
+    color: #EBC00C;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
 
-/*botonera y navbar */
+}
+
+H2{
+    color: #EBC00C;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+/*fin de mi titulo********/
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: #111111;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+/****************navbar****************/
 
 nav{
     background-color:#EBC00C;
@@ -51,7 +89,8 @@ nav{
 }
 
 
-/*Pagina index */
+/**************PAGINA INDEX************/
+
 
 .parrafo{
     width:auto;
@@ -61,7 +100,7 @@ nav{
     font-family: 'Courier New', Courier, monospace;
     padding: 10px 10px 5px 10px;
     border-radius: 8px;
-    margin-block-start: 100px;
+    margin-block-start: 10px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -75,16 +114,7 @@ P{
 }
 
 
-
-/*este es mi footer*/
-
-.iconos a{
-    border-radius: 50%;
-}
-
-/*fin de footer*/
-
-/*pagina multimedia*/
+/*********************PAGINA MULTIMEDIA*****************/
 
 .center {
     margin: auto;
@@ -96,3 +126,36 @@ P{
     display:block;
     height: 50vh;
  }
+ /*pagina multimedia*/
+
+
+/*********************PAGINA CONTACTO **********/
+/* formulario*/
+.formulario{
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.849);
+    font-size: 0.8rem;
+    position:relative;
+    font-family: 'Courier New', Courier, monospace;
+    top: 150px;
+    left: 5%;
+    padding: 10px 50px 50px 40px;
+    border-radius: 20px;
+
+}
+label{
+    font-size: 0.8rem;
+}
+/* fin de formulario*/
+/*********************FIN DE PAGINA CONTACTO **********/
+
+ /*fin de pagina de contacto*/
+
+
+/*****************este es mi footer************/
+
+.iconos a{
+    border-radius: 50%;
+}
+
+/********************fin de footer***********************/
