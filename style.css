@@ -11,7 +11,9 @@
     background-size:cover ;
     width: 100%;
     height: 150vh;
+  
 }
+
 
 .main-s{
     background-image: url(./img/STEFANO.jpeg);
@@ -28,7 +30,7 @@
 }
 
 .main-m{
-    background-color: white;
+    background-color:#ffffff9d;
     width: 100%;
     height: auto;
 }
@@ -72,6 +74,7 @@ nav{
     background-color:#EBC00C;
 }
 
+
 .nav ul li a{
     color: #ffffff;
     font-size: 0.7rem;
@@ -89,7 +92,7 @@ nav{
 }
 
 
-/**************PAGINA INDEX************/
+                 /**************PAGINA INDEX************/
 
 
 .parrafo{
@@ -113,6 +116,26 @@ P{
     height: auto;
 }
 
+/*********animaciones******/
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+           /************** FIN DE PAGINA INDEX************/
+
 
 /*********************PAGINA MULTIMEDIA*****************/
 
@@ -126,13 +149,19 @@ P{
     display:block;
     height: 50vh;
  }
+
+ .altura-fotos{
+    display:block;
+    height: auto;
+ }
  /*pagina multimedia*/
 
 
 /*********************PAGINA CONTACTO **********/
 /* formulario*/
 .formulario{
-    width: 300px;
+    width: 80%;
+    height: 60%;
     background-color: rgba(255, 255, 255, 0.849);
     font-size: 0.8rem;
     position:relative;
@@ -143,6 +172,8 @@ P{
     border-radius: 20px;
 
 }
+
+
 label{
     font-size: 0.8rem;
 }
@@ -159,3 +190,6 @@ label{
 }
 
 /********************fin de footer***********************/
+
+
+
